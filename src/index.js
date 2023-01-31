@@ -8,7 +8,13 @@ import reportWebVitals from './reportWebVitals';
 
 import { Amplify } from 'aws-amplify'
 
+
+// eslint-disable-next-line
+import { Authenticator } from '@aws-amplify/ui-react';
+//import '@aws-amplify/ui-react/styles.css';
+
 import config from './aws-exports';
+
 Amplify.configure(config);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
